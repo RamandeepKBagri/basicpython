@@ -1,0 +1,19 @@
+#simple adding game
+
+answer=input('What is 4+10?')
+answer=int(answer)
+
+if answer==14:
+    print('you got it')
+    print('you are super genius')
+else:
+    print('sorry, the answer was 14')
+    print('try again later')
+    
+             
+language=input('what is your favorite language?')
+if language=='python':
+    print('you are a smart person')
+else:
+        print('wrong wrong')
+        

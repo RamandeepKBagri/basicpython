@@ -1,0 +1,35 @@
+import random
+
+ndice=2
+result=random.randrange(1,7)
+increment=1
+
+
+def rollsingledice():
+    result=random.randrange(1,7)
+    return result
+
+ndoubles=0#declare variables
+nrounds=0
+
+while True:
+    dice1 = rollsingledice()
+    dice2 = rollsingledice()
+    nrounds=nrounds+1
+    print('you got',dice1,'and',dice2)
+
+    if dice1==dice2:#defining doubles
+        ndoubles=ndoubles+1
+        percent=(ndoubles*100)/nrounds
+        print('doubles')
+
+        print ('doubles',ndoubles,'percent of rolling the dice',percent)
+
+    goagain=input('Return or enter to continue, q to exit')
+
+    if goagain=='q':
+       break#exit the loop here
+    
+    
+           
+    

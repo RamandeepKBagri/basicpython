@@ -1,4 +1,4 @@
-#simple adding game
+#Simple Program of IF AND ELSE STATEMENT
 
 answer=input('What is 4+10?')
 answer=int(answer)

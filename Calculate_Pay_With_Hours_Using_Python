@@ -1,4 +1,4 @@
-#calculate the pay
+#Calculate your pay using your hours in Python
 
 
 def calculateThePay(hours,regularpay):

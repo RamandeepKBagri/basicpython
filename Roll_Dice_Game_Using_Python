@@ -1,3 +1,5 @@
+#Roll Dice game using Python, KEEP PLAYING!
+
 import random
 
 ndice=2
@@ -29,7 +31,4 @@ while True:
 
     if goagain=='q':
        break#exit the loop here
-    
-    
-           
-    
+  

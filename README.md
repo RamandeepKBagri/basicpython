@@ -4,3 +4,4 @@
  -- Functions
  -- Strings
  -- For, while statements
+Citation: Code is takem from class notes. 
